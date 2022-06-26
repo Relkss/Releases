@@ -9,6 +9,6 @@ end
 --- CHECK
 if Multiply > 600 and Amount > 100 then return end
 --- FUNCTION
-for i=1, 20 * Multiply do
+for i=0, Amount * Multiply do
 	GetPoints()
 end
